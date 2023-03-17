@@ -5,10 +5,21 @@ body{
 
 h1{
     font-family: 'Rubik Iso', cursive;
+    font-size: 3.5rem;
     color: whitesmoke;
+    text-align: center;
+    position: absolute;
 }
 
 p{
     font-family:'Courier New', Courier, monospace;
     color: whitesmoke;
+    text-align: center;
+    margin: 0;
+}
+
+@media only screen and (max-width = 600px){
+    h1{
+        font-size: 1.5rem;
+    }
 }
