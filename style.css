@@ -3,12 +3,31 @@ body{
     background-color: black;
 }
 
-h1{
+@keyframes titleanim {
+    0% {}
+    100% {transform: rotateX(360deg)}
+    
+}
+
+.titleblock{
+    perspective: 500px;
+    perspective-origin: bottom;
+}
+
+.titleblock h1{
     font-family: 'Rubik Iso', cursive;
     font-size: 4rem;
     color: whitesmoke;
     text-align: center;
     margin: 2rem;
+    animation-name: titleanim;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-play-state: paused;
+}
+
+.titleblock h1:hover{
+    animation-play-state: running;
 }
 
 p{
