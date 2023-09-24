@@ -4,7 +4,6 @@ body{
 }
 
 @keyframes titleanim {
-    0% {}
     100% {transform: rotateX(360deg)}
     
 }
@@ -49,7 +48,7 @@ p{
     width: 50%;
 }
 
-canvas{
+.canvas{
     border: 2px solid burlywood;
     background-color: dimgray;
 }
